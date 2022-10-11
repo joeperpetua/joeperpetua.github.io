@@ -1,0 +1,17 @@
+.Nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    background-color: #282c34;
+}
+
+.nav-icon {
+    height: 5vh;
+}
+
+.nav-title {
+    margin-inline: auto;
+}
