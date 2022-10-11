@@ -1,8 +1,0 @@
-.App {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  min-height: 100vh;
-  font-size: calc(10px + 2vmin);
-  margin: 2vw 2vh;
-}
