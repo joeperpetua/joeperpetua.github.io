@@ -8,9 +8,9 @@ const renderProjects = () => {
         <h3 className='project-title'>{element.name}</h3>
         <p className='project-sub-title'><i>{element.technologies}</i> | {element.status}</p>
         <p className='project-desc'>{element.description}</p>
-        {element.gh_link.api ? (<a href={element.gh_link.api} target="_blank" className='project-link'>API Repository</a>) : null}
-        {element.gh_link.client ? (<a href={element.gh_link.client} target="_blank" className='project-link'>Client Repository</a>) : null}
-        {element.demo_link ? (<a href={element.demo_link} target="_blank" className='project-link'>Online Demo</a>) : null}
+        {element.gh_link.api ? (<a href={element.gh_link.api} rel="noreferrer" target="_blank" className='project-link'>API Repository</a>) : null}
+        {element.gh_link.client ? (<a href={element.gh_link.client} rel="noreferrer" target="_blank" className='project-link'>Client Repository</a>) : null}
+        {element.demo_link ? (<a href={element.demo_link} rel="noreferrer" target="_blank" className='project-link'>Online Demo</a>) : null}
         <hr></hr>
       </div>
     ))

@@ -1,2 +1,2 @@
-<a target="_blank" href="https://icons8.com/icon/3096/menu">Menu icon by Icons8</a>
-<a target="_blank" href="https://icons8.com/icon/fuaPZ2MgTeTk/x">X icon by Icons8</a>
+<a rel="noreferrer" target="_blank" href="https://icons8.com/icon/3096/menu">Menu icon by Icons8</a>
+<a rel="noreferrer" target="_blank" href="https://icons8.com/icon/fuaPZ2MgTeTk/x">X icon by Icons8</a>
