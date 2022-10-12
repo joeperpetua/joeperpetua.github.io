@@ -1,13 +1,15 @@
 .Menu {
     display: flex;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
     text-align: left;
-    min-height: 100vh;
+    min-height: 100%;
     min-width: 100vw;
     margin: 0;
     background-color: #282c34;
     left: -100vw;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes close {
@@ -32,4 +34,15 @@
     animation-name: open;
     animation-duration: .17s;
     animation-timing-function: ease;
+}
+
+.menu-item {
+    margin: 5vh;
+}
+
+.menu-item a {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-block: 0.83em;
 }
