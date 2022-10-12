@@ -1,0 +1,29 @@
+.project-title {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.project-sub-title {
+    margin-top: 0;
+    color: #ff760c;
+    font-size: smaller;
+}
+
+.project-sub-title i {
+    color: #ff760c;
+}
+
+.project-desc {
+    font-size: medium;
+}
+
+.project-link {
+    display: block;
+    font-size: medium;
+}
+
+.Projects hr {
+    width: 75vw;
+    margin: 4vh auto;
+}
+
