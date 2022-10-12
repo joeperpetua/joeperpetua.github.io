@@ -6,6 +6,7 @@
     position: sticky;
     top: 0;
     background-color: #282c34;
+    padding-block-start: 1vh;
 }
 
 .nav-icon {

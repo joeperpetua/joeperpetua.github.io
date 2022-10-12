@@ -1,10 +1,21 @@
 import './Nav.css';
 
+const toggleMenu = (e) => {
+  let menu = document.querySelector(".Menu");
+  if (menu.className.includes("open")) {
+    menu.className = "Menu closed";
+    e.target.src = "https://img.icons8.com/ios/50/FFFFFF/menu--v1.png";
+  }else {
+    menu.className = "Menu opened";
+    e.target.src = "https://img.icons8.com/sf-ultralight-filled/50/FFFFFF/x.png";
+  }
+}
+
 function Nav() {
   return (
     <div className="Nav">
-        <img className="nav-icon" alt="Menu Icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAANUlEQVRoge3WwQ0AIAzEsML+Ox9LIFoke4I8UwUA1EqS7ogbdncAAAA8Y+MBAOA7Nh4AGOgAzbgL/m6MRWgAAAAASUVORK5CYII=" />
-        <h2 className='nav-title'>Portfolio</h2>
+        <img className="nav-icon" alt="Menu Icon" src="https://img.icons8.com/ios/50/FFFFFF/menu--v1.png" onClick={toggleMenu} />
+        {/* <h2 className='nav-title'>Portfolio</h2> */}
     </div>
   );
 }

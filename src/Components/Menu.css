@@ -1,0 +1,35 @@
+.Menu {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: left;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    background-color: #282c34;
+    left: -100vw;
+}
+
+@keyframes close {
+    0%   {left: 0;}
+    100% {left: -100vw;}
+}
+
+@keyframes open {
+    0%   {left: -100vw;}
+    100% {left: 0;}
+}
+
+.closed {
+    left: -100vw;
+    animation-name: close;
+    animation-duration: .17s;
+    animation-timing-function: ease;
+}
+
+.opened {
+    left: 0;
+    animation-name: open;
+    animation-duration: .17s;
+    animation-timing-function: ease;
+}
