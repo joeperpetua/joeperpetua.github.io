@@ -1,8 +1,11 @@
 import './Projects.css';
+import {sleep} from '../lib/sleep.js';
 import {projectsRaw} from '../lib/projectsRaw.js';
 
-const compileDescription = (str, key) => {
+const compileDescription = async (str, key) => {
+  await sleep(100, 'ms');
   document.querySelector(`#desc-${key}`).innerHTML = str;
+  return ;
 }
 
 const renderProjects = () => {
