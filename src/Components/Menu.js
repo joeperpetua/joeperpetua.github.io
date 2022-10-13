@@ -11,7 +11,7 @@ function Menu() {
             <a href='#about' onClick={toggleMenu}>About me</a>
         </div>
         <div className='menu-item'>
-            <a href='#resources' onClick={toggleMenu}>My Resource</a>
+            <a href='#resources' onClick={toggleMenu}>My Resources</a>
         </div>
     </div>
   );
