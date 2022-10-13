@@ -8,7 +8,7 @@ function Menu() {
             <a href='#projects' onClick={toggleMenu}>My Projects</a>
         </div>
         <div className='menu-item'>
-            <a href='#about' onClick={toggleMenu}>About me</a>
+            <a href='#about' onClick={toggleMenu}>About Me</a>
         </div>
         <div className='menu-item'>
             <a href='#resources' onClick={toggleMenu}>My Resources</a>
