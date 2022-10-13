@@ -1,3 +1,9 @@
+.Resources {
+    margin-bottom: 6vh;
+}
+
 .res-desc {
+    display: block;
     font-size: medium;
+    width: fit-content;
 }
