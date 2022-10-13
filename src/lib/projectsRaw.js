@@ -111,6 +111,26 @@ const projectsRaw = [
         ],
         "demo_link": null,
         "status": "Functional - Finished"
+    },
+    {
+        "name": "Portfolio - Old version",
+        "technologies": "JavaScript; Materialize",
+        "description": "Old portfolio, done a few years ago. Featured multilanguage support, but now the service is deprecated. Also served as a file storage.",
+        "gh_link": [
+            ["Portfolio", "https://github.com/joeperpetua/portfolio-old"]
+        ],
+        "demo_link": "https://joeperpetua.github.io/portfolio-old/",
+        "status": "Functional - Finished"
+    },
+    {
+        "name": "Portfolio - Current version",
+        "technologies": "ReactJS",
+        "description": "New portfolio, done to update it in a more simple way, portraying all the projects done over the last few years.",
+        "gh_link": [
+            ["Portfolio", "https://github.com/joeperpetua/joeperpetua.github.io"]
+        ],
+        "demo_link": "https://joeperpetua.github.io/",
+        "status": "Functional - Finished"
     }
 ];
 
