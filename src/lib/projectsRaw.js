@@ -22,11 +22,12 @@ const projectsRaw = [
         "status": "Not functional - Work In Progress"
     },
     {
-        "name": "e-commerce Demo",
-        "technologies": "PHP; SQL",
+        "name": "ExoPhone - e-commerce Demo",
+        "technologies": "PHP; SQL; ReactJS; Phonegap",
         "description": "Fully fledged ecommerce site for mobile phones. The idea is to be able to filter phones by all the features possible (hardware/software specs). Fully relational SQL database. User registration/login with cart functionality and full CRUD functionality for administration and product loading.",
         "gh_link": [
-            ["Website", "https://github.com/joeperpetua/ecommerce-redesign"]
+            ["Website", "https://github.com/joeperpetua/ecommerce-redesign"],
+            ["App", "https://github.com/joeperpetua/exo-app"]
         ],
         "demo_link": "http://www.exophone.rf.gd/",
         "status": "Functional - Finished"
