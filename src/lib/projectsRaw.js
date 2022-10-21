@@ -13,13 +13,13 @@ const projectsRaw = [
     {
         "name": "DJapones - Spanish/Japanese Dictionary",
         "technologies": "NodeJS; ReactJS",
-        "description": "Japanese to Spanish dictionary, using JMDict (fetching Jisho API) and Google Translate API to give better and more useful translations than the original JMDict in Spanish.",
+        "description": "Japanese to Spanish dictionary, using JMDict (fetching Jisho API) and <a rel='noreferrer' target='_blank' href='https://github.com/joeperpetua/multilang-web/'>MultiLang API</a> to give better and more useful translations than the original JMDict in Spanish.",
         "gh_link": [
             ["API", "https://github.com/joeperpetua/djapones-api"],
             ["Website", "https://github.com/joeperpetua/djapones-webapp"]
         ],
         "demo_link": "https://djapones.web.app/",
-        "status": "Not functional - Work In Progress"
+        "status": "Functional - Work In Progress"
     },
     {
         "name": "ExoPhone - e-commerce Demo",
