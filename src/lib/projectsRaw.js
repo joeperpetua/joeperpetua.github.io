@@ -4,11 +4,11 @@ const projectsRaw = [
         "technologies": "Java; Python - Flask",
         "description": "Multilang is a mobile app for Android that allows you to simoultaneously translate the input text to any amount of languages desired, all at the same time. It also provides alternative variations of the translation for a more diverse option pool when translating to another language. Its main purpose is to avoid losing time when selecting the target language desired.",
         "gh_link": [
-            ["API", "https://github.com/joeperpetua/multilang-web/"],
+            ["API", "https://github.com/joeperpetua/multilang-api/"],
             ["App", "https://github.com/joeperpetua/multilang-app"]
         ],
         "demo_link": null,
-        "status": "Functional - Work In Progress"
+        "status": "Functional - Not Finished"
     },
     {
         "name": "DJapones - Spanish/Japanese Dictionary",
@@ -19,7 +19,7 @@ const projectsRaw = [
             ["Website", "https://github.com/joeperpetua/djapones-webapp"]
         ],
         "demo_link": "https://djapones.web.app/",
-        "status": "Functional - Work In Progress"
+        "status": "Functional - Not Finished"
     },
     {
         "name": "ExoPhone - e-commerce Demo",
@@ -40,7 +40,7 @@ const projectsRaw = [
             ["App", "https://github.com/joeperpetua/TapRace"]
         ],
         "demo_link": "https://github.com/joeperpetua/TapRace/releases",
-        "status": "Functional - Work In Progress"
+        "status": "Functional - Not Finished"
     },
     {
         "name": "Debug Extractor - Desktop App",
