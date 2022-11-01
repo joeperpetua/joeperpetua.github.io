@@ -1,5 +1,5 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 User-agent: AdsBot-Google
-Disallow: /portfolio/
-Disallow: /portfolio-old/
+Disallow: /portfolio*
+Disallow: /portfolio-old*
