@@ -1,13 +1,14 @@
 const projectsRaw = [
     {
         "name": "MultiLang - Translation App",
-        "technologies": "Java; Python - Flask",
+        "technologies": "ReactJS; Java; Python - Flask",
         "description": "Multilang is a mobile app for Android that allows you to simoultaneously translate the input text to any amount of languages desired, all at the same time. It also provides alternative variations of the translation for a more diverse option pool when translating to another language. Its main purpose is to avoid losing time when selecting the target language desired.",
         "gh_link": [
-            ["API", "https://github.com/joeperpetua/multilang-api/"],
-            ["App", "https://github.com/joeperpetua/multilang-app"]
+            ["Website", "https://github.com/joeperpetua/multilang-web"],
+            ["App", "https://github.com/joeperpetua/multilang-app"],
+            ["API", "https://github.com/joeperpetua/multilang-api/"]
         ],
-        "demo_link": null,
+        "demo_link": "https://joeperpetua.github.io/multilang",
         "status": "Functional - Not Finished"
     },
     {
@@ -15,8 +16,8 @@ const projectsRaw = [
         "technologies": "NodeJS; ReactJS",
         "description": "Japanese to Spanish dictionary, using JMDict (fetching Jisho API) and <a rel='noreferrer' target='_blank' href='https://github.com/joeperpetua/multilang-web/'>MultiLang API</a> to give better and more useful translations than the original JMDict in Spanish.",
         "gh_link": [
-            ["API", "https://github.com/joeperpetua/djapones-api"],
-            ["Website", "https://github.com/joeperpetua/djapones-webapp"]
+            ["Website", "https://github.com/joeperpetua/djapones-webapp"],
+            ["API", "https://github.com/joeperpetua/djapones-api"]
         ],
         "demo_link": "https://djapones.web.app/",
         "status": "Functional - Not Finished"
