@@ -11,7 +11,7 @@ const compileDescription = async (str, key) => {
 const renderProjects = () => {
   return (
     projectsRaw.map((element, key) => (
-      <div key={key} className='project-item'>
+      <div key={key} className='project-item' id={element.id}>
         <h3 className='project-title'>{element.name}</h3>
         <p className='project-sub-title'><i>{element.technologies}</i> | {element.status}</p>
         <p id={'desc-' + key} className='project-desc' onLoad={compileDescription(element.description, key)}></p>

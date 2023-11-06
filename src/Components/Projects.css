@@ -1,6 +1,7 @@
 .project-title {
     font-weight: normal;
     margin-bottom: 0;
+    padding-top: 5vh;
 }
 
 .project-sub-title {
@@ -25,6 +26,6 @@
 
 .Projects hr {
     width: 75vw;
-    margin: 4vh auto;
+    margin: 7vh auto 4vh auto;
 }
 
