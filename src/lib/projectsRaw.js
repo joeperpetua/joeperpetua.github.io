@@ -3,7 +3,7 @@ const projectsRaw = [
         "id": "multilang",
         "name": "MultiLang - Translation App",
         "technologies": "ReactJS; Java; Python - Flask",
-        "description": "Multilang is a mobile app for Android that allows you to simoultaneously translate the input text to any amount of languages desired, all at the same time. It also provides alternative variations of the translation for a more diverse option pool when translating to another language. Its main purpose is to avoid losing time when selecting the target language desired.",
+        "description": "Multilang is a mobile app for Android that allows you to simultaneously translate the input text to any amount of languages desired, all at the same time. It also provides alternative variations of the translation for a more diverse option pool when translating to another language. Its main purpose is to avoid losing time when selecting the target language desired.",
         "gh_link": [
             ["Website", "https://github.com/joeperpetua/multilang-web"],
             ["App Android Native", "https://github.com/joeperpetua/multilang-app"],
@@ -79,17 +79,6 @@ const projectsRaw = [
             ["Project", "https://github.com/joeperpetua/RTK-Core6K"]
         ],
         "demo_link": "https://github.com/joeperpetua/RTK-Core6K/releases",
-        "status": "Functional - Finished"
-    },
-    {
-        "id": "automated-retrieval",
-        "name": "Automated retrieval of information - Desktop App",
-        "technologies": "NodeJS; UIKit; Puppeteer",
-        "description": "Desktop App that implements Puppeteer automation to retrieve data from enterprise portal and formats it into readable and comprenhensible data.",
-        "gh_link": [
-            ["Desktop App", "https://github.com/joeperpetua/scrap-css"]
-        ],
-        "demo_link": null,
         "status": "Functional - Finished"
     },
     {
