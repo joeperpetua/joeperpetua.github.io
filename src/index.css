@@ -17,6 +17,7 @@ code {
 *{
   scrollbar-width: thin;
   scrollbar-color: #ff760c #35363A;
+  scroll-behavior: smooth;
   color: #B2B7C4;
 }
 

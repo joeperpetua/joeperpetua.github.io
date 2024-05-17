@@ -1,3 +1,7 @@
+.project-item * {
+    width: fit-content;
+}
+
 .project-title {
     font-weight: normal;
     margin-bottom: 0;
