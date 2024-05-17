@@ -12,7 +12,6 @@ const toggleMenu = async () => {
     }else {
       menu.className = "Menu opened";
       await sleep(50, 'ms');
-      nav.setAttribute("style", "justify-content: flex-end;");
       navIcon.src = "https://img.icons8.com/sf-ultralight-filled/50/FFFFFF/x.png";
     }
 }
