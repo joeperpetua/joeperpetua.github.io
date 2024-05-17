@@ -2,12 +2,12 @@ const projectsRaw = [
     {
         "id": "multilang",
         "name": "MultiLang - Translation App",
-        "technologies": "ReactJS; Java; Python - Flask",
+        "technologies": "ReactJS; Flutter; Java; Python - Flask",
         "description": "Multilang is a mobile app for Android that allows you to simultaneously translate the input text to any amount of languages desired, all at the same time. It also provides alternative variations of the translation for a more diverse option pool when translating to another language. Its main purpose is to avoid losing time when selecting the target language desired.",
         "gh_link": [
             ["Website", "https://github.com/joeperpetua/multilang-web"],
-            ["App Android Native", "https://github.com/joeperpetua/multilang-app"],
-            ["App Flutter", "https://github.com/joeperpetua/multilang-flutter"],
+            ["App - Flutter", "https://github.com/joeperpetua/multilang-flutter"],
+            ["App - Android Native", "https://github.com/joeperpetua/multilang-app"],
             ["API", "https://github.com/joeperpetua/multilang-api/"]
         ],
         "demo_link": "https://joeperpetua.github.io/multilang",
