@@ -1,6 +1,17 @@
 const projectsRaw = [
     {
         "id": "multilang",
+        "name": "WAAM - Windows Advanced Attributes Manager",
+        "technologies": "C#; WPF",
+        "description": "Windows Advanced Attributes Manager (WAAM) is a Windows tool that allows users to quickly preview and modify file and folder advanced attributes such as temporary, sparse, offline, hidden, read-only, system, and more. It provides a user-friendly interface for managing file system attributes efficiently.",
+        "gh_link": [
+            ["Desktop App", "https://github.com/joeperpetua/WindowsAdvancedAttributesManager"]
+        ],
+        "demo_link": "https://github.com/joeperpetua/WindowsAdvancedAttributesManager/releases",
+        "status": "Functional - Finished"
+    },
+    {
+        "id": "multilang",
         "name": "MultiLang - Translation App",
         "technologies": "ReactJS; Flutter; Java; Python - Flask",
         "description": "Multilang is a mobile app for Android that allows you to simultaneously translate the input text to any amount of languages desired, all at the same time. It also provides alternative variations of the translation for a more diverse option pool when translating to another language. Its main purpose is to avoid losing time when selecting the target language desired.",
@@ -11,7 +22,7 @@ const projectsRaw = [
             ["API", "https://github.com/joeperpetua/multilang-api/"]
         ],
         "demo_link": "https://joeperpetua.github.io/multilang",
-        "status": "Functional - Not Finished"
+        "status": "Functional - WIP"
     },
     {
         "id": "djapones",
@@ -23,7 +34,7 @@ const projectsRaw = [
             ["API", "https://github.com/joeperpetua/djapones-api"]
         ],
         "demo_link": "https://djapones.web.app/",
-        "status": "Functional - Not Finished"
+        "status": "Functional - WIP"
     },
     {
         "id": "exophone",
@@ -46,7 +57,7 @@ const projectsRaw = [
             ["App", "https://github.com/joeperpetua/TapRace"]
         ],
         "demo_link": "https://github.com/joeperpetua/TapRace/releases",
-        "status": "Functional - Not Finished"
+        "status": "Functional - Finished"
     },
     {
         "id": "debug-extractor",
